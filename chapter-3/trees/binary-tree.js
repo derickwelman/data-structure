@@ -61,7 +61,9 @@ tree.add(new BinaryNode(1));
 tree.add(new BinaryNode(2));
 
 BinaryTree.preOrder(tree.root);
+console.log('---');
 BinaryTree.posOrder(tree.root);
+console.log('---');
 BinaryTree.inOrder(tree.root);
 
 exports.BinaryTree = BinaryTree;
